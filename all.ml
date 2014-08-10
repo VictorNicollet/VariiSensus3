@@ -1,7 +1,8 @@
 ﻿let all = [
 
-  (* Simmera explique à Giselle pourquoi Staniel a envie d'abandonner 
-     la plèbe.  *)
-  "rumeurs" ;
-  
+	(* Nathan capture l'étincelle des anciens. *)
+	"eriadis", "Dalakos Eriadis" ;
+
+	(* Simmera rencontre Rendorian sous la brume. *)
+	"rendorian", "Rendorian" ;
 ]
