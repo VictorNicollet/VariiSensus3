@@ -3,6 +3,9 @@
 	(* Simmera parle avec Jeanne pour la première fois. *)
 	"mission", "Simmera Suidaster" ;
 
+	(* Simmera retrouve Giselle *)
+	"retrouvailles", "Retrouvailles" ; 
+
 	(* Nathan capture l'étincelle des anciens. *)
 	"eriadis", "Dalakos Eriadis" ;
 
