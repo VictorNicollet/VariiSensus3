@@ -23,4 +23,7 @@
 	
 	(* Giselle ordonne à Michelle d'avoir des enfants. *)
 	"epreuve", "Épreuve" ; 
+	
+	(* Andriava interroge Simmera sur son monde. *)
+	"guide", "Guide Andriava" ;
 ]
