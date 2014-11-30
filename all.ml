@@ -11,4 +11,10 @@
 	
 	(* Hayako retrouve Tym. *)
 	"hantise", "Hantise" ; 
+	
+	(* Giselle quitte Eldmera avec Morgane *)
+	"eldmera", "Eldmera" ;
+	
+	(* Giselle ordonne à Michelle d'avoir des enfants. *)
+	"epreuve", "Épreuve" ; 
 ]
