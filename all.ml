@@ -26,4 +26,7 @@
 	
 	(* Andriava interroge Simmera sur son monde. *)
 	"guide", "Guide Andriava" ;
+
+	(* Les Suidinns ont attaqué les enfants de la Brume. *)	
+	"attaque", "Attaque" ;
 ]
