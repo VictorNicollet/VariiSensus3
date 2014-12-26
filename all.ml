@@ -45,6 +45,11 @@
 	(* J + 5. Nathan parle avec Morgane et Eugénie *)
 	"nocturne", "Nocturne" ;
 	
+	(* J + 7. Mariage de l'empereur. *)
+	
+	(* J + 8. Carnaval et Leydras. *)
+	"leydras", "Leydras Jouldari" ; 
+	
 	(* ---- *)
 	
 	(* Charles essaye de tuer Giselle. *)
