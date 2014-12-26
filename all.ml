@@ -1,46 +1,51 @@
 ﻿let all = [
 
-	(* Simmera parle avec Jeanne pour la première fois. *)
+	(* J + 0. Simmera parle avec Jeanne pour la première fois. *)
 	"mission", "Simmera Suidaster" ;
 
-	(* Simmera retrouve Giselle *)
+	(* J + 0. Simmera retrouve Giselle *)
 	"retrouvailles", "Retrouvailles" ; 
 
-	(* Nathan capture l'étincelle des anciens. *)
+	(* J + 0. Nathan capture l'étincelle des anciens. *)
 	"eriadis", "Dalakos Eriadis" ;
 
-	(* Jeanne retrouve Simmera au bord de la falaise. *)
+	(* J + 0. Jeanne retrouve Simmera au bord de la falaise. *)
 	"brume", "La Brume" ; 
 	
-	(* Eminent-Invocateur appelle un Vestale. *)
+	(* J + 0. Eminent-Invocateur appelle un Vestale. *)
 	"vestale", "Questions" ;
 	
-	(* Simmera voit Nathan en rêve. *)
+	(* J + 1. Simmera voit Nathan en rêve. *)
 	"visions", "Visions" ;
 	
-	(* Simmera rencontre Rendorian sous la brume. *)
+	(* J + 1. Simmera rencontre Rendorian sous la brume. *)
 	"rendorian", "Rendorian" ;
 	
-	(* Giselle révèle son identité à Charles. *)
+	(* J + 1. Giselle révèle son identité à Charles. *)
 	"union", "Union" ;
 	
-	(* Hayako retrouve Tym. *)
+	(* J + 1. Hayako retrouve Tym. *)
 	"hantise", "Hantise" ; 
 	
-	(* Giselle quitte Eldmera avec Morgane *)
+	(* J + 3. Giselle quitte Eldmera avec Morgane *)
 	"eldmera", "Eldmera" ;
 
-	(* Nathan rencontre l'Empereur *)
+	(* J + 3. Nathan rencontre l'Empereur *)
 	"empereur", "Kaël Jouldari" ; 
 		
-	(* Giselle ordonne à Michelle d'avoir des enfants. *)
+	(* J + 3. Giselle ordonne à Michelle d'avoir des enfants. *)
 	"epreuve", "Épreuve" ; 
 	
-	(* Andriava interroge Simmera sur son monde. *)
+	(* J + 3. Andriava interroge Simmera sur son monde. *)
 	"guide", "Guide Andriava" ;
 
-	(* Les Suidinns ont attaqué les enfants de la Brume. *)	
+	(* J + 3. Les Suidinns ont attaqué les enfants de la Brume. *)	
 	"attaque", "Attaque" ;
+	
+	(* J + 5. Nathan parle avec Morgane et Eugénie *)
+	"nocturne", "Nocturne" ;
+	
+	(* ---- *)
 	
 	(* Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
