@@ -44,7 +44,10 @@
 
 	(* J + 4. Nathan se présente au conseil des Ministres. *)
 	"ministres", "Ministres" ;
-	
+
+	(* J + 4. Staniel interdit à l'Empire d'intervenir. *)
+	"staniel", "Le Seigneur des Ténèbres" ;	
+
 	(* J + 4. Simmera sous la Brume. *)
 	
 	(* J + 5. Nathan parle avec Morgane et Eugénie *)
@@ -55,7 +58,8 @@
 	(* J + 7. Mariage de l'empereur. *)
 	
 	(* J + 7. Nathan et Leydras. *)
-	
+	"enquete", "Enquête" ;	
+
 	(* J + 8. Carnaval et Leydras. *)
 	"leydras", "Leydras Jouldari" ; 
 	
