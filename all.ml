@@ -42,6 +42,9 @@
 	(* J + 3. Les Suidinns ont attaqué les enfants de la Brume. *)	
 	"attaque", "Attaque" ;
 
+	(* J + 3. Giselle rencontre l'Empereur. *)
+	"entrevue", "Reine et Empereur" ;	
+
 	(* J + 4. Nathan se présente au conseil des Ministres. *)
 	"ministres", "Ministres" ;
 
@@ -52,9 +55,7 @@
 	
 	(* J + 5. Nathan parle avec Morgane et Eugénie *)
 	"nocturne", "Nocturne" ;
-	
-	(* J + 6. Giselle et l'empereur. *)
-	
+
 	(* J + 7. Mariage de l'empereur. *)
 	
 	(* J + 7. Nathan et Leydras. *)
