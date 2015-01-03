@@ -58,6 +58,10 @@
 	"nocturne", "Nocturne" ;
 
 	(* J + 7. Mariage de l'empereur. *)
+	"mariage", "Mariage" ;
+
+	(* J + 7. Jeanne à Nymett. *)
+	"culte", "Le Culte de l'Archange" ;  
 	
 	(* J + 7. Nathan et Leydras. *)
 	"enquete", "Enquête" ;	
