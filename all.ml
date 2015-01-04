@@ -69,7 +69,8 @@
 	(* J + 8. Carnaval et Leydras. *)
 	"leydras", "Leydras Jouldari" ; 
 	
-	(* J + 8. Nathan, Carnaval et l'Empereur. *)
+	(* J + 8. Nathan, Carnaval et Erena. *)
+	"erena", "Pris au Piège" ; 
 	
 	(* J + 8. Simmera voit Jeanne en rêve. *)
 	
