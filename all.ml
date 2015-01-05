@@ -51,9 +51,6 @@
 	(* J + 4. Staniel interdit à l'Empire d'intervenir. *)
 	"staniel", "Le Seigneur des Ténèbres" ;	
 
-	(* J + 5. Simmera sous la Brume. *)
-	"priere", "Prière" ; 
-
 	(* J + 5. Nathan parle avec Morgane et Eugénie *)
 	"nocturne", "Nocturne" ;
 
