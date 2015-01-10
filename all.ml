@@ -81,4 +81,7 @@
 	
 	(* Giselle devient Arkadir. *)
 	"mourir", "Mourir" ; 
+	
+	(* Tym se rend à Tarasc. *)
+	"tarasc", "Tarasc" ; 
 ]
