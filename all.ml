@@ -45,6 +45,9 @@
 	(* J + 3. Giselle rencontre l'Empereur. *)
 	"entrevue", "Reine et Empereur" ;	
 
+	(* J + 3. Tym ne sert à rien. *)
+	"poursuit", "Poursuite" ;
+
 	(* J + 4. Nathan se présente au conseil des Ministres. *)
 	"ministres", "Ministres" ;
 
@@ -73,6 +76,7 @@
 	"erena", "Pris au Piège" ; 
 	
 	(* J + 8. Simmera voit Jeanne en rêve. *)
+	"forteresse", "Forteresse" ; 
 	
 	(* ---- *)
 	
