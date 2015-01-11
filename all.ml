@@ -76,8 +76,11 @@
 	"erena", "Pris au Piège" ; 
 	
 	(* J + 8. Simmera voit Jeanne en rêve. *)
-	"forteresse", "Forteresse" ; 
+	"adoration", "Adoration" ; 
 	
+	(* J + 8. Simmera, Rendorian attaquent une forteresse. *)
+	"forteresse", "Forteresse" ;
+
 	(* ---- *)
 	
 	(* Charles essaye de tuer Giselle. *)
