@@ -82,6 +82,9 @@
 	"forteresse", "Forteresse" ;
 
 	(* ---- *)
+
+	(* J + 0. Sita retrouve Giselle. *)
+	"sita", "Sita Neerus" ;
 	
 	(* Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
