@@ -46,7 +46,7 @@
 	"entrevue", "Reine et Empereur" ;	
 
 	(* J + 3. Tym ne sert à rien. *)
-	"poursuit", "Poursuite" ;
+	"poursuite", "Poursuite" ;
 
 	(* J + 4. Nathan se présente au conseil des Ministres. *)
 	"ministres", "Ministres" ;
@@ -85,6 +85,9 @@
 
 	(* J + 0. Sita retrouve Giselle. *)
 	"sita", "Sita Neerus" ;
+
+	(* J + 1. Giselle enlève Victor-Émile. *)
+	"jessiere", "Pointe-Jessière" ; 
 	
 	(* Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
