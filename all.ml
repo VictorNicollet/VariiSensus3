@@ -99,6 +99,7 @@
 	"reveil", "Réveil Difficile" ;
 
 	(* Galilée et Tarski parlent à Hayako. *)
+	"menace", "Menace" ;
 	
 	(* Giselle devient Arkadir. *)
 	"mourir", "Mourir" ; 
