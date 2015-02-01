@@ -72,7 +72,7 @@
 	(* J + 8. Carnaval et Leydras. *)
 	"leydras", "Leydras Jouldari" ; 
 	
-	(* J + 8. Nathan, Carnaval et Erena. *)
+	(* J + 8. Nathan, Carnaval et Sita. *)
 	"erena", "Pris au Piège" ; 
 	
 	(* J + 8. Simmera voit Jeanne en rêve. *)
@@ -80,6 +80,9 @@
 	
 	(* J + 8. Simmera, Rendorian attaquent des Suidinns. *)
 	"forteresse", "Embuscade" ;
+
+	(* J + 8. Simmera et Rendorian sont pourchassés. *)
+	"renforts", "Renforts" ;
 
 	(* ---- *)
 
