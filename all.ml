@@ -78,8 +78,8 @@
 	(* J + 8. Simmera voit Jeanne en rêve. *)
 	"adoration", "Adoration" ; 
 	
-	(* J + 8. Simmera, Rendorian attaquent une forteresse. *)
-	"forteresse", "Forteresse" ;
+	(* J + 8. Simmera, Rendorian attaquent des Suidinns. *)
+	"forteresse", "Embuscade" ;
 
 	(* ---- *)
 
