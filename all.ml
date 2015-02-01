@@ -84,6 +84,9 @@
 	(* J + 8. Simmera et Rendorian sont pourchassés. *)
 	"renforts", "Renforts" ;
 
+	(* J + 8. Simmera est torturée par Than. *)
+	"sevices", "Les Règles du Jeu" ; 
+
 	(* ---- *)
 
 	(* J + 0. Sita retrouve Giselle. *)
@@ -94,6 +97,8 @@
 	
 	(* Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
+
+	(* Galilée et Tarski parlent à Hayako. *)
 	
 	(* Giselle devient Arkadir. *)
 	"mourir", "Mourir" ; 
