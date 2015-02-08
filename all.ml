@@ -85,7 +85,10 @@
 	"renforts", "Renforts" ;
 
 	(* J + 8. Simmera est torturée par Than. *)
-	"sevices", "Les Règles du Jeu" ; 
+	"sevices", "Règles du Jeu" ; 
+
+	(* J + 9. Simmera et Rendorian atteignent la forteresse. *)
+	"represailles", "Yrdelvar" ; 
 
 	(* ---- *)
 
@@ -94,16 +97,29 @@
 
 	(* J + 1. Giselle enlève Victor-Émile. *)
 	"jessiere", "Pointe-Jessière" ; 
-	
-	(* Charles essaye de tuer Giselle. *)
+
+	(* J + 4. Giselle détruit le conseil Altarane. *)
+	"beledas", "Archives"  
+
+	(* J + 13. Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
 
-	(* Galilée et Tarski parlent à Hayako. *)
+	(* J + 13. Galilée et Tarski parlent à Hayako. *)
 	"menace", "Menace" ;
 	
-	(* Giselle devient Arkadir. *)
+	(* J + 13. Giselle devient Arkadir. *)
 	"mourir", "Mourir" ; 
+
+	(* J + 13. Premiers pas de l'Arkadir. *) 
 	
-	(* Tym se rend à Tarasc. *)
+	(* J + 14. Morgane est enterrée vive. *)
+
+	(* J + 14. Tym se rend à Tarasc. *)
 	"tarasc", "Tarasc" ; 
+
+	(* J + 14. Tym meurt à Tarasc. *)
+
+	(* J + 15. Simmera voit l'invasion commencer. *)
+
+	(* J + 15. Jeanne et Nathan viennent sauver Simmera. *)
 ]
