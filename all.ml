@@ -65,6 +65,9 @@
 
 	(* J + 7. Jeanne à Nymett. *)
 	"culte", "Le Culte de l'Archange" ;  
+
+	(* J + 7. Giselle, Charles, Eugénie. *)
+	"eugenie", "Eugénie Randéstal" ;
 	
 	(* J + 7. Nathan et Leydras. *)
 	"enquete", "Enquête" ;	
