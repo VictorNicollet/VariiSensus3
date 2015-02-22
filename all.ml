@@ -98,8 +98,11 @@
 	(* J + 1. Giselle enlève Victor-Émile. *)
 	"jessiere", "Pointe-Jessière" ; 
 
-	(* J + 4. Giselle détruit le conseil Altarane. *)
-	"beledas", "Archives"  
+	(* J + 4. Giselle arrive à la Retraite Bélédas. *)
+	"beledas", "Archives" ;
+
+	(* J + 4. Sita ne se porte pas bien. *)
+	"maladie", "Maladie" :
 
 	(* J + 13. Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
@@ -122,4 +125,5 @@
 	(* J + 15. Simmera voit l'invasion commencer. *)
 
 	(* J + 15. Jeanne et Nathan viennent sauver Simmera. *)
+	"prieres", "Prières"
 ]
