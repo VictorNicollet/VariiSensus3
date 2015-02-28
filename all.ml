@@ -123,6 +123,7 @@
 	"mourir", "Mourir" ; 
 
 	(* J + 13. Premiers pas de l'Arkadir. *) 
+	"arkadir", "Arkadir" ;
 	
 	(* J + 14. Morgane est enterrée vive. *)
 	"morgane", "Morgane Jouldari" ; 
