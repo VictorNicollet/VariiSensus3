@@ -110,6 +110,9 @@
 	(* J + 8. Giselle trouve le moyen de conquérir Ygao. *)
 	"convalescence", "Convalescence" ; 
 
+	(* J + 12. Carnaval et Nathan. *)
+	"reines", "Deux Reines" ;
+
 	(* J + 13. Charles essaye de tuer Giselle. *)
 	"reveil", "Réveil Difficile" ;
 
