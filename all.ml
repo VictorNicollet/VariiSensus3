@@ -119,6 +119,7 @@
 	(* J + 13. Premiers pas de l'Arkadir. *) 
 	
 	(* J + 14. Morgane est enterrée vive. *)
+	"morgane", "Morgane Jouldari" ; 
 
 	(* J + 14. Tym se rend à Tarasc. *)
 	"tarasc", "Tarasc" ; 
