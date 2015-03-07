@@ -132,8 +132,10 @@
 	"tarasc", "Tarasc" ; 
 
 	(* J + 14. Tym meurt à Tarasc. *)
+	"etincelle", "Étincelle" ;
 
 	(* J + 15. Simmera voit l'invasion commencer. *)
+	"assaut", "Assaut" ;
 
 	(* J + 15. Jeanne et Nathan viennent sauver Simmera. *)
 	"prieres", "Prières"
