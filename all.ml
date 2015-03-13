@@ -1,5 +1,8 @@
 ﻿let all = [
 
+	(* J + 0. Onterberg reçoit une malle d'Akim. *)
+	"assistante", "Assistante" ;
+
 	(* J + 0. Simmera parle avec Jeanne pour la première fois. *)
 	"mission", "Simmera Suidaster" ;
 
@@ -136,6 +139,9 @@
 
 	(* J + 15. Simmera voit l'invasion commencer. *)
 	"assaut", "Assaut" ;
+
+	(* J + 15. Simmera affronte les enfants de la Brume. *) 
+	"heritage", "Héritage" ;
 
 	(* J + 15. Jeanne et Nathan viennent sauver Simmera. *)
 	"prieres", "Prières"
