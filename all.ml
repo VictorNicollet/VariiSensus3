@@ -96,6 +96,9 @@
 	(* J + 9. Simmera et Rendorian atteignent la forteresse. *)
 	"represailles", "Yrdelvar" ; 
 
+	(* J + 9. Départ vers le Maltombé. *)
+	"maltombe", "Maltombé" ; 
+
 	(* ---- *)
 
 	(* J + 0. Sita retrouve Giselle. *)
