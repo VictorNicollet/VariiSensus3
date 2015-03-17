@@ -1,4 +1,4 @@
-﻿let all = [
+let all = [
 
 	(* J + 0. Onterberg reçoit une malle d'Akim. *)
 	"assistante", "Assistante" ;
