@@ -39,34 +39,34 @@ let head_pdf = "\\documentclass[10pt,openany]{book}
 
 \\begin{document}
 
-\\pagestyle{empty}
+%\\pagestyle{empty}
 
-\\changepage{2in}{3in}{-0.75in}{-0.75in}{0in}{-0.75in}{0in}{0in}{0in}
-\\includegraphics[width=5in]{cover.eps}
+%\\changepage{2in}{3in}{-0.75in}{-0.75in}{0in}{-0.75in}{0in}{0in}{0in}
+%\\includegraphics[width=5in]{cover.eps}
 
 \\clearpage
 
-\\changepage{-2in}{-3in}{0.75in}{0.75in}{0in}{0.75in}{0in}{0in}{0in}
+%\\changepage{-2in}{-3in}{0.75in}{0.75in}{0in}{0.75in}{0in}{0in}{0in}
 
 \\begin{flushright}
 
   \\verb+ +
 
   \\vfill
-  \\huge{Le Culte de l'Archange}\\\\
+  \\huge{Les enfants de la Brume}\\\\
   \\large{Victor Nicollet}
 
   \\vfill
 
 \\end{flushright}
 
-\\clearpage
+%\\clearpage
 
-\\changepage{0in}{1in}{-0.5in}{-0.5in}{0in}{0in}{0in}{0in}{0in}
-\\includegraphics[width=4.5in]{map.eps}
+%\\changepage{0in}{1in}{-0.5in}{-0.5in}{0in}{0in}{0in}{0in}{0in}
+%\\includegraphics[width=4.5in]{map.eps}
 
 \\clearpage
-\\changepage{0in}{-1in}{0.5in}{0.5in}{0in}{0in}{0in}{0in}{0in}
+%\\changepage{0in}{-1in}{0.5in}{0.5in}{0in}{0in}{0in}{0in}{0in}
 "
 
 let head_final = "\\documentclass[10pt,openleft,twoside]{book}
@@ -168,7 +168,7 @@ let fin = "
 {\\small
 J'espère que vous avez pris beaucoup de plaisir à lire ce roman ! Pour vous tenir au courant de la sortie des volumes suivants, rendez-vous sur :
 
-\\verb+http://nicollet.net/le-culte-de-l-archange+}
+\\verb+http://nicollet.net/book+}
 
 \\begin{flushright}
 Victor Nicollet
@@ -179,7 +179,7 @@ Victor Nicollet
 \\begin{center}
 
 {\\tiny
-  \\textcircled{c} 2013 Victor Nicollet\\\\
+  \\textcircled{c} 2015 Victor Nicollet\\\\
 }
 
 \\end{center}

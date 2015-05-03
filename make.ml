@@ -415,7 +415,8 @@ let generate_epub () =
 
   let chan = open_out "epub/toc.ncx" in
   output_string chan ToEpub.ncx_head ;
-  List.iter (fun x -> output_string chan (ToEpub.ncx_item x)) All.all;
+  let i = ref 1 in
+  List.iter (fun x -> output_string chan (ToEpub.ncx_item (!i) x) ; incr i) All.all;
   output_string chan ToEpub.ncx_foot ;
   close_out chan ;
 

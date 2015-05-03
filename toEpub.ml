@@ -4,10 +4,10 @@ let opf_head =
             xmlns:dc=\"http://purl.org/dc/elements/1.1/\"
             unique-identifier=\"bookid\" version=\"2.0\">
   <metadata>
-    <dc:title>Le Culte de l'Archange</dc:title>
+    <dc:title>Les enfants de la Brume</dc:title>
     <dc:creator>Victor Nicollet</dc:creator>
     <dc:identifier
-id=\"bookid\">urn:http//nicollet.net/book-1</dc:identifier>
+id=\"bookid\">urn:http//nicollet.net/book-3</dc:identifier>
     <dc:language>en-US</dc:language>
     <meta name=\"cover\" content=\"cover-image\" />
   </metadata>
@@ -18,7 +18,10 @@ id=\"bookid\">urn:http//nicollet.net/book-1</dc:identifier>
 
 let opf_mid = 
 "    <item id=\"cover-image\" href=\"cover.png\" media-type=\"image/png\"/>
-    <item id=\"map-image\" href=\"map.png\" media-type=\"image/png\"/>
+    <item id=\"map-image-1\" href=\"map-levant.png\" media-type=\"image/png\"/>
+    <item id=\"map-image-2\" href=\"map-ponant.png\" media-type=\"image/png\"/>
+    <item id=\"map-image-3\" href=\"map-centre.png\" media-type=\"image/png\"/>
+    <item id=\"map-image-4\" href=\"map-levant.png\" media-type=\"image/png\"/>
     <item id=\"css\" href=\"main.css\" media-type=\"text/css\"/>
   </manifest>
   <spine toc=\"ncx\">
@@ -29,7 +32,7 @@ let opf_mid =
 let opf_foot = "  
     </spine>
   <guide>
-    <reference href=\"title.htm\" type=\"cover\" title=\"Le Culte de l'Archange\"/>
+    <reference href=\"title.htm\" type=\"cover\" title=\"Les enfants de la Brume\"/>
   </guide>
 </package>"
 
@@ -41,13 +44,13 @@ let ncx_head =
 <ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\">
   <head>
     <meta name=\"dtb:uid\"
-content=\"urn:http//nicollet.net/book-1\"/>
+content=\"urn:http//nicollet.net/book-3\"/>
     <meta name=\"dtb:depth\" content=\"1\"/>
     <meta name=\"dtb:totalPageCount\" content=\"0\"/>
     <meta name=\"dtb:maxPageNumber\" content=\"0\"/>
   </head>
   <docTitle>
-    <text>Le Culte de l'Archange</text>
+    <text>Les enfants de la Brume</text>
   </docTitle>
   <navMap>
     <navPoint id=\"title\" playOrder=\"0\">
@@ -58,13 +61,12 @@ content=\"urn:http//nicollet.net/book-1\"/>
     </navPoint>
     <navPoint id=\"map\" playOrder=\"1\">
       <navLabel>
-        <text>Carte d'Athanor</text>
+        <text>Carte d'Ygao</text>
       </navLabel>
       <content src=\"map.htm\"/>
     </navPoint>"
 
-let ncx_item (path,title) = 
-  let n = int_of_string (String.sub path 0 2) in
+let ncx_item n (path,title) = 
   Printf.sprintf "<navPoint id=\"chapter-%s\" playOrder=\"%d\">
       <navLabel>
         <text>%d. %s</text>
