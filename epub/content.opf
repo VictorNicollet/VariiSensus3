@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            unique-identifier="bookid" version="2.0">
+  <metadata>
+    <dc:title>Les enfants de la Brume</dc:title>
+    <dc:creator>Victor Nicollet</dc:creator>
+    <dc:identifier
+id="bookid">urn:http//nicollet.net/book-3</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <meta name="cover" content="cover-image" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="cover" href="title.htm" media-type="application/xhtml+xml"/>
+    <item id="map" href="map.htm" media-type="application/xhtml+xml"/><item id="assistante" href="assistante.htm" media-type="application/xhtml+xml"/><item id="mission" href="mission.htm" media-type="application/xhtml+xml"/><item id="retrouvailles" href="retrouvailles.htm" media-type="application/xhtml+xml"/><item id="eriadis" href="eriadis.htm" media-type="application/xhtml+xml"/><item id="brume" href="brume.htm" media-type="application/xhtml+xml"/><item id="vestale" href="vestale.htm" media-type="application/xhtml+xml"/><item id="visions" href="visions.htm" media-type="application/xhtml+xml"/><item id="rendorian" href="rendorian.htm" media-type="application/xhtml+xml"/><item id="union" href="union.htm" media-type="application/xhtml+xml"/><item id="hantise" href="hantise.htm" media-type="application/xhtml+xml"/><item id="eldmera" href="eldmera.htm" media-type="application/xhtml+xml"/><item id="empereur" href="empereur.htm" media-type="application/xhtml+xml"/><item id="epreuve" href="epreuve.htm" media-type="application/xhtml+xml"/><item id="guide" href="guide.htm" media-type="application/xhtml+xml"/><item id="attaque" href="attaque.htm" media-type="application/xhtml+xml"/><item id="entrevue" href="entrevue.htm" media-type="application/xhtml+xml"/><item id="poursuite" href="poursuite.htm" media-type="application/xhtml+xml"/><item id="ministres" href="ministres.htm" media-type="application/xhtml+xml"/><item id="staniel" href="staniel.htm" media-type="application/xhtml+xml"/><item id="desert" href="desert.htm" media-type="application/xhtml+xml"/><item id="nocturne" href="nocturne.htm" media-type="application/xhtml+xml"/><item id="mariage" href="mariage.htm" media-type="application/xhtml+xml"/><item id="culte" href="culte.htm" media-type="application/xhtml+xml"/><item id="eugenie" href="eugenie.htm" media-type="application/xhtml+xml"/><item id="enquete" href="enquete.htm" media-type="application/xhtml+xml"/><item id="leydras" href="leydras.htm" media-type="application/xhtml+xml"/><item id="erena" href="erena.htm" media-type="application/xhtml+xml"/><item id="adoration" href="adoration.htm" media-type="application/xhtml+xml"/><item id="forteresse" href="forteresse.htm" media-type="application/xhtml+xml"/><item id="renforts" href="renforts.htm" media-type="application/xhtml+xml"/><item id="sevices" href="sevices.htm" media-type="application/xhtml+xml"/><item id="represailles" href="represailles.htm" media-type="application/xhtml+xml"/><item id="maltombe" href="maltombe.htm" media-type="application/xhtml+xml"/><item id="sita" href="sita.htm" media-type="application/xhtml+xml"/><item id="jessiere" href="jessiere.htm" media-type="application/xhtml+xml"/><item id="beledas" href="beledas.htm" media-type="application/xhtml+xml"/><item id="maladie" href="maladie.htm" media-type="application/xhtml+xml"/><item id="convalescence" href="convalescence.htm" media-type="application/xhtml+xml"/><item id="reines" href="reines.htm" media-type="application/xhtml+xml"/><item id="reveil" href="reveil.htm" media-type="application/xhtml+xml"/><item id="menace" href="menace.htm" media-type="application/xhtml+xml"/><item id="mourir" href="mourir.htm" media-type="application/xhtml+xml"/><item id="arkadir" href="arkadir.htm" media-type="application/xhtml+xml"/><item id="morgane" href="morgane.htm" media-type="application/xhtml+xml"/><item id="tarasc" href="tarasc.htm" media-type="application/xhtml+xml"/><item id="etincelle" href="etincelle.htm" media-type="application/xhtml+xml"/><item id="assaut" href="assaut.htm" media-type="application/xhtml+xml"/><item id="heritage" href="heritage.htm" media-type="application/xhtml+xml"/><item id="prieres" href="prieres.htm" media-type="application/xhtml+xml"/>    <item id="cover-image" href="cover.png" media-type="image/png"/>
+    <item id="map-image-1" href="map-levant.png" media-type="image/png"/>
+    <item id="map-image-2" href="map-ponant.png" media-type="image/png"/>
+    <item id="map-image-3" href="map-centre.png" media-type="image/png"/>
+    <item id="map-image-4" href="map-levant.png" media-type="image/png"/>
+    <item id="css" href="main.css" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="map" linear="no"/>
+<itemref idref="assistante"/><itemref idref="mission"/><itemref idref="retrouvailles"/><itemref idref="eriadis"/><itemref idref="brume"/><itemref idref="vestale"/><itemref idref="visions"/><itemref idref="rendorian"/><itemref idref="union"/><itemref idref="hantise"/><itemref idref="eldmera"/><itemref idref="empereur"/><itemref idref="epreuve"/><itemref idref="guide"/><itemref idref="attaque"/><itemref idref="entrevue"/><itemref idref="poursuite"/><itemref idref="ministres"/><itemref idref="staniel"/><itemref idref="desert"/><itemref idref="nocturne"/><itemref idref="mariage"/><itemref idref="culte"/><itemref idref="eugenie"/><itemref idref="enquete"/><itemref idref="leydras"/><itemref idref="erena"/><itemref idref="adoration"/><itemref idref="forteresse"/><itemref idref="renforts"/><itemref idref="sevices"/><itemref idref="represailles"/><itemref idref="maltombe"/><itemref idref="sita"/><itemref idref="jessiere"/><itemref idref="beledas"/><itemref idref="maladie"/><itemref idref="convalescence"/><itemref idref="reines"/><itemref idref="reveil"/><itemref idref="menace"/><itemref idref="mourir"/><itemref idref="arkadir"/><itemref idref="morgane"/><itemref idref="tarasc"/><itemref idref="etincelle"/><itemref idref="assaut"/><itemref idref="heritage"/><itemref idref="prieres"/>  
+    </spine>
+  <guide>
+    <reference href="title.htm" type="cover" title="Les enfants de la Brume"/>
+  </guide>
+</package>

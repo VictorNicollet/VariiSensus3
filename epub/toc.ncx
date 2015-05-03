@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+                 "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid"
+content="urn:http//nicollet.net/book-3"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Les enfants de la Brume</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="title" playOrder="0">
+      <navLabel>
+        <text>Couverture</text>
+      </navLabel>
+      <content src="title.htm"/>
+    </navPoint>
+    <navPoint id="map" playOrder="1">
+      <navLabel>
+        <text>Carte d'Ygao</text>
+      </navLabel>
+      <content src="map.htm"/>
+    </navPoint><navPoint id="chapter-assistante" playOrder="3">
+      <navLabel>
+        <text>1. Assistante</text>
+      </navLabel>
+      <content src="assistante.htm"/>
+    </navPoint><navPoint id="chapter-mission" playOrder="4">
+      <navLabel>
+        <text>2. Simmera Suidaster</text>
+      </navLabel>
+      <content src="mission.htm"/>
+    </navPoint><navPoint id="chapter-retrouvailles" playOrder="5">
+      <navLabel>
+        <text>3. Retrouvailles</text>
+      </navLabel>
+      <content src="retrouvailles.htm"/>
+    </navPoint><navPoint id="chapter-eriadis" playOrder="6">
+      <navLabel>
+        <text>4. Dalakos Eriadis</text>
+      </navLabel>
+      <content src="eriadis.htm"/>
+    </navPoint><navPoint id="chapter-brume" playOrder="7">
+      <navLabel>
+        <text>5. La Brume</text>
+      </navLabel>
+      <content src="brume.htm"/>
+    </navPoint><navPoint id="chapter-vestale" playOrder="8">
+      <navLabel>
+        <text>6. Questions</text>
+      </navLabel>
+      <content src="vestale.htm"/>
+    </navPoint><navPoint id="chapter-visions" playOrder="9">
+      <navLabel>
+        <text>7. Visions</text>
+      </navLabel>
+      <content src="visions.htm"/>
+    </navPoint><navPoint id="chapter-rendorian" playOrder="10">
+      <navLabel>
+        <text>8. Rendorian</text>
+      </navLabel>
+      <content src="rendorian.htm"/>
+    </navPoint><navPoint id="chapter-union" playOrder="11">
+      <navLabel>
+        <text>9. Union</text>
+      </navLabel>
+      <content src="union.htm"/>
+    </navPoint><navPoint id="chapter-hantise" playOrder="12">
+      <navLabel>
+        <text>10. Hantise</text>
+      </navLabel>
+      <content src="hantise.htm"/>
+    </navPoint><navPoint id="chapter-eldmera" playOrder="13">
+      <navLabel>
+        <text>11. Eldmera</text>
+      </navLabel>
+      <content src="eldmera.htm"/>
+    </navPoint><navPoint id="chapter-empereur" playOrder="14">
+      <navLabel>
+        <text>12. Kaël Jouldari</text>
+      </navLabel>
+      <content src="empereur.htm"/>
+    </navPoint><navPoint id="chapter-epreuve" playOrder="15">
+      <navLabel>
+        <text>13. Épreuve</text>
+      </navLabel>
+      <content src="epreuve.htm"/>
+    </navPoint><navPoint id="chapter-guide" playOrder="16">
+      <navLabel>
+        <text>14. Andriava</text>
+      </navLabel>
+      <content src="guide.htm"/>
+    </navPoint><navPoint id="chapter-attaque" playOrder="17">
+      <navLabel>
+        <text>15. Attaque</text>
+      </navLabel>
+      <content src="attaque.htm"/>
+    </navPoint><navPoint id="chapter-entrevue" playOrder="18">
+      <navLabel>
+        <text>16. Reine et Empereur</text>
+      </navLabel>
+      <content src="entrevue.htm"/>
+    </navPoint><navPoint id="chapter-poursuite" playOrder="19">
+      <navLabel>
+        <text>17. Poursuite</text>
+      </navLabel>
+      <content src="poursuite.htm"/>
+    </navPoint><navPoint id="chapter-ministres" playOrder="20">
+      <navLabel>
+        <text>18. Ministres</text>
+      </navLabel>
+      <content src="ministres.htm"/>
+    </navPoint><navPoint id="chapter-staniel" playOrder="21">
+      <navLabel>
+        <text>19. Le Seigneur des Ténèbres</text>
+      </navLabel>
+      <content src="staniel.htm"/>
+    </navPoint><navPoint id="chapter-desert" playOrder="22">
+      <navLabel>
+        <text>20. Désert</text>
+      </navLabel>
+      <content src="desert.htm"/>
+    </navPoint><navPoint id="chapter-nocturne" playOrder="23">
+      <navLabel>
+        <text>21. Nocturne</text>
+      </navLabel>
+      <content src="nocturne.htm"/>
+    </navPoint><navPoint id="chapter-mariage" playOrder="24">
+      <navLabel>
+        <text>22. Mariage</text>
+      </navLabel>
+      <content src="mariage.htm"/>
+    </navPoint><navPoint id="chapter-culte" playOrder="25">
+      <navLabel>
+        <text>23. Le Culte de l'Archange</text>
+      </navLabel>
+      <content src="culte.htm"/>
+    </navPoint><navPoint id="chapter-eugenie" playOrder="26">
+      <navLabel>
+        <text>24. Eugénie Randéstal</text>
+      </navLabel>
+      <content src="eugenie.htm"/>
+    </navPoint><navPoint id="chapter-enquete" playOrder="27">
+      <navLabel>
+        <text>25. Enquête</text>
+      </navLabel>
+      <content src="enquete.htm"/>
+    </navPoint><navPoint id="chapter-leydras" playOrder="28">
+      <navLabel>
+        <text>26. Leydras Jouldari</text>
+      </navLabel>
+      <content src="leydras.htm"/>
+    </navPoint><navPoint id="chapter-erena" playOrder="29">
+      <navLabel>
+        <text>27. Pris au Piège</text>
+      </navLabel>
+      <content src="erena.htm"/>
+    </navPoint><navPoint id="chapter-adoration" playOrder="30">
+      <navLabel>
+        <text>28. Adoration</text>
+      </navLabel>
+      <content src="adoration.htm"/>
+    </navPoint><navPoint id="chapter-forteresse" playOrder="31">
+      <navLabel>
+        <text>29. Embuscade</text>
+      </navLabel>
+      <content src="forteresse.htm"/>
+    </navPoint><navPoint id="chapter-renforts" playOrder="32">
+      <navLabel>
+        <text>30. Renforts</text>
+      </navLabel>
+      <content src="renforts.htm"/>
+    </navPoint><navPoint id="chapter-sevices" playOrder="33">
+      <navLabel>
+        <text>31. Règles du Jeu</text>
+      </navLabel>
+      <content src="sevices.htm"/>
+    </navPoint><navPoint id="chapter-represailles" playOrder="34">
+      <navLabel>
+        <text>32. Yrdelvar</text>
+      </navLabel>
+      <content src="represailles.htm"/>
+    </navPoint><navPoint id="chapter-maltombe" playOrder="35">
+      <navLabel>
+        <text>33. Maltombé</text>
+      </navLabel>
+      <content src="maltombe.htm"/>
+    </navPoint><navPoint id="chapter-sita" playOrder="36">
+      <navLabel>
+        <text>34. Sita Neerus</text>
+      </navLabel>
+      <content src="sita.htm"/>
+    </navPoint><navPoint id="chapter-jessiere" playOrder="37">
+      <navLabel>
+        <text>35. Pointe-Jessière</text>
+      </navLabel>
+      <content src="jessiere.htm"/>
+    </navPoint><navPoint id="chapter-beledas" playOrder="38">
+      <navLabel>
+        <text>36. Archives</text>
+      </navLabel>
+      <content src="beledas.htm"/>
+    </navPoint><navPoint id="chapter-maladie" playOrder="39">
+      <navLabel>
+        <text>37. Maladie</text>
+      </navLabel>
+      <content src="maladie.htm"/>
+    </navPoint><navPoint id="chapter-convalescence" playOrder="40">
+      <navLabel>
+        <text>38. Convalescence</text>
+      </navLabel>
+      <content src="convalescence.htm"/>
+    </navPoint><navPoint id="chapter-reines" playOrder="41">
+      <navLabel>
+        <text>39. Deux Reines</text>
+      </navLabel>
+      <content src="reines.htm"/>
+    </navPoint><navPoint id="chapter-reveil" playOrder="42">
+      <navLabel>
+        <text>40. Réveil Difficile</text>
+      </navLabel>
+      <content src="reveil.htm"/>
+    </navPoint><navPoint id="chapter-menace" playOrder="43">
+      <navLabel>
+        <text>41. Menace</text>
+      </navLabel>
+      <content src="menace.htm"/>
+    </navPoint><navPoint id="chapter-mourir" playOrder="44">
+      <navLabel>
+        <text>42. Mourir</text>
+      </navLabel>
+      <content src="mourir.htm"/>
+    </navPoint><navPoint id="chapter-arkadir" playOrder="45">
+      <navLabel>
+        <text>43. Arkadir</text>
+      </navLabel>
+      <content src="arkadir.htm"/>
+    </navPoint><navPoint id="chapter-morgane" playOrder="46">
+      <navLabel>
+        <text>44. Morgane Jouldari</text>
+      </navLabel>
+      <content src="morgane.htm"/>
+    </navPoint><navPoint id="chapter-tarasc" playOrder="47">
+      <navLabel>
+        <text>45. Tarasc</text>
+      </navLabel>
+      <content src="tarasc.htm"/>
+    </navPoint><navPoint id="chapter-etincelle" playOrder="48">
+      <navLabel>
+        <text>46. Étincelle</text>
+      </navLabel>
+      <content src="etincelle.htm"/>
+    </navPoint><navPoint id="chapter-assaut" playOrder="49">
+      <navLabel>
+        <text>47. Assaut</text>
+      </navLabel>
+      <content src="assaut.htm"/>
+    </navPoint><navPoint id="chapter-heritage" playOrder="50">
+      <navLabel>
+        <text>48. Héritage</text>
+      </navLabel>
+      <content src="heritage.htm"/>
+    </navPoint><navPoint id="chapter-prieres" playOrder="51">
+      <navLabel>
+        <text>49. Prières</text>
+      </navLabel>
+      <content src="prieres.htm"/>
+    </navPoint>  
+   </navMap>
+</ncx>
