@@ -67,13 +67,13 @@ out/map-left.eps: map-athanor-left.png
 out/map-right.eps: map-athanor-right.png
 	convert map-athanor-right.png -resize 1200x1900\> -size 1200x1900 'xc:white' +swap -gravity center -composite out/map-right.eps
 
-latex : out/cover.eps out/map-right.eps out/map-left.eps
+latex : out/map-levant.eps out/map-ponant.eps out/map-centre.eps out/map-abyssales.eps 
 	$(BUILD) make.byte
 	./make.byte --latex
 	rm -f out/*.log out/*.aux out/*.dvi out/*.pdf || echo 'Clean!'
 	(cd out ; latex book.tex && latex book.tex && dvipdfm book.dvi)
 
-pdf : #out/cover.eps out/map.eps
+pdf : out/map-levant.eps out/map-ponant.eps out/map-centre.eps out/map-abyssales.eps 
 	$(BUILD) make.byte
 	./make.byte --latex-pdf
 	rm -f out/*.log out/*.aux out/*.dvi out/*.pdf || echo 'Clean!'
@@ -86,5 +86,5 @@ make.native:
 	$(BUILD) make.native
 
 install: ePub pdf
-	cp out/book.epub /home/victor/www/book/LeCulteDeLArchange.epub
-	cp out/book.pdf /home/victor/www/book/LeCulteDeLArchange.pdf
+	cp out/book.epub /home/victor/www/book/LesEnfantsDeLaBrume.epub
+	cp out/book.pdf /home/victor/www/book/LesEnfantsDeLaBrume.pdf

@@ -23,6 +23,7 @@ let opf_mid =
     <item id=\"map-image-3\" href=\"map-centre.png\" media-type=\"image/png\"/>
     <item id=\"map-image-4\" href=\"map-levant.png\" media-type=\"image/png\"/>
     <item id=\"css\" href=\"main.css\" media-type=\"text/css\"/>
+    <item id=\"lexicon\" href=\"lexicon.htm\" media-type=\"application/xhtml+xml\"/>
   </manifest>
   <spine toc=\"ncx\">
     <itemref idref=\"cover\" linear=\"no\"/>
@@ -30,6 +31,7 @@ let opf_mid =
 "
 
 let opf_foot = "  
+    <itemref idref=\"lexicon\" linear=\"no\"/>
     </spine>
   <guide>
     <reference href=\"title.htm\" type=\"cover\" title=\"Les enfants de la Brume\"/>
@@ -75,9 +77,15 @@ let ncx_item n (path,title) =
     </navPoint>"
     path (2 + n) n title path
 
-let ncx_foot = "  
+let ncx_foot n = 
+  Printf.sprintf "<navPoint id=\"lexicon\" playOrder=\"%d\">
+      <navLabel>
+        <text>Glossaire</text>
+      </navLabel>
+      <content src=\"lexicon.htm\"/>
+    </navPoint>  
    </navMap>
-</ncx>"
+</ncx>" (3 + n)
 
 let head chap = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">
@@ -94,12 +102,14 @@ let foot = "  </body>
 </html>" 
 
 
-class toEpub = object
+class toEpub = object (self)
 
   val buffer = Buffer.create 1024
 
   method start_chapter title =
     Buffer.add_string buffer (head title) 
+  method start_lexicon = 
+    self # start_chapter "Glossaire"
   method start_emphasis =
     Buffer.add_string buffer "<em>"
   method end_emphasis = 

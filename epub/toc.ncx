@@ -269,6 +269,11 @@ content="urn:http//nicollet.net/book-3"/>
         <text>49. Prières</text>
       </navLabel>
       <content src="prieres.htm"/>
+    </navPoint><navPoint id="lexicon" playOrder="53">
+      <navLabel>
+        <text>Glossaire</text>
+      </navLabel>
+      <content src="lexicon.htm"/>
     </navPoint>  
    </navMap>
 </ncx>

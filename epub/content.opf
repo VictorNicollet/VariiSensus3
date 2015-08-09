@@ -19,11 +19,13 @@ id="bookid">urn:http//nicollet.net/book-3</dc:identifier>
     <item id="map-image-3" href="map-centre.png" media-type="image/png"/>
     <item id="map-image-4" href="map-levant.png" media-type="image/png"/>
     <item id="css" href="main.css" media-type="text/css"/>
+    <item id="lexicon" href="lexicon.htm" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
     <itemref idref="map" linear="no"/>
 <itemref idref="assistante"/><itemref idref="mission"/><itemref idref="retrouvailles"/><itemref idref="eriadis"/><itemref idref="brume"/><itemref idref="vestale"/><itemref idref="visions"/><itemref idref="rendorian"/><itemref idref="union"/><itemref idref="hantise"/><itemref idref="eldmera"/><itemref idref="empereur"/><itemref idref="epreuve"/><itemref idref="guide"/><itemref idref="attaque"/><itemref idref="entrevue"/><itemref idref="poursuite"/><itemref idref="ministres"/><itemref idref="staniel"/><itemref idref="desert"/><itemref idref="nocturne"/><itemref idref="mariage"/><itemref idref="culte"/><itemref idref="eugenie"/><itemref idref="enquete"/><itemref idref="leydras"/><itemref idref="erena"/><itemref idref="adoration"/><itemref idref="forteresse"/><itemref idref="renforts"/><itemref idref="sevices"/><itemref idref="represailles"/><itemref idref="maltombe"/><itemref idref="sita"/><itemref idref="jessiere"/><itemref idref="beledas"/><itemref idref="maladie"/><itemref idref="convalescence"/><itemref idref="reines"/><itemref idref="reveil"/><itemref idref="menace"/><itemref idref="mourir"/><itemref idref="arkadir"/><itemref idref="morgane"/><itemref idref="tarasc"/><itemref idref="etincelle"/><itemref idref="assaut"/><itemref idref="heritage"/><itemref idref="prieres"/>  
+    <itemref idref="lexicon" linear="no"/>
     </spine>
   <guide>
     <reference href="title.htm" type="cover" title="Les enfants de la Brume"/>

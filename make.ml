@@ -392,6 +392,13 @@ let generate_latex what =
     Lex.latex inv lexbuf ;
     close_in chan 
   ) All.all ;
+
+  inv # start_lexicon ;
+  let chan = open_in "lexicon" in
+  let lexbuf = Lexing.from_channel chan in
+  Lex.latex inv lexbuf ;
+  close_in chan;
+
   print_endline "out/book.tex" ;
   let chan = open_out "out/book.tex" in
   output_string chan (inv # contents) ;
@@ -417,7 +424,7 @@ let generate_epub () =
   output_string chan ToEpub.ncx_head ;
   let i = ref 1 in
   List.iter (fun x -> output_string chan (ToEpub.ncx_item (!i) x) ; incr i) All.all;
-  output_string chan ToEpub.ncx_foot ;
+  output_string chan (ToEpub.ncx_foot !i) ;
   close_out chan ;
 
   (* Generate actual chapters *) 
@@ -433,7 +440,19 @@ let generate_epub () =
     let chan = open_out ("epub/"^path^".htm") in
     output_string chan (inv # contents) ;
     close_out chan     
-  ) All.all 
+  ) All.all ;
+
+  let inv = new ToEpub.toEpub in
+  inv # start_lexicon ;
+  let chan = open_in "lexicon" in
+  let lexbuf = Lexing.from_channel chan in 
+  Lex.latex inv lexbuf ;
+  close_in chan ;
+  print_endline ("epub/lexicon.htm") ;
+  let chan = open_out ("epub/lexicon.htm") in
+  output_string chan (inv # contents) ;
+  close_out chan     
+
 
 let () = 
   if Array.length Sys.argv = 1 then begin 

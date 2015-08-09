@@ -18,7 +18,7 @@ let head_draft = "\\documentclass[10pt,twocolumn]{article}
   \\large{Victor Nicollet}
 \\end{flushright}"
 
-let head_pdf = "\\documentclass[10pt,openany]{book}
+let head_pdf = "\\documentclass[11pt,openany]{book}
 
 \\usepackage[papersize={5in,8in},margin=0.75in]{geometry}
 
@@ -48,6 +48,7 @@ let head_pdf = "\\documentclass[10pt,openany]{book}
 
 %\\changepage{-2in}{-3in}{0.75in}{0.75in}{0in}{0.75in}{0in}{0in}{0in}
 
+\\thispagestyle{empty}
 \\begin{flushright}
 
   \\verb+ +
@@ -60,16 +61,36 @@ let head_pdf = "\\documentclass[10pt,openany]{book}
 
 \\end{flushright}
 
-%\\clearpage
-
-%\\changepage{0in}{1in}{-0.5in}{-0.5in}{0in}{0in}{0in}{0in}{0in}
-%\\includegraphics[width=4.5in]{map.eps}
+\\clearpage
+\\thispagestyle{empty}
+\\changepage{0in}{1in}{-0.5in}{-0.5in}{0in}{0in}{0in}{0in}{0in}
+\\begin{center}
+\\includegraphics[width=3.9in]{map-ponant.eps}
+\\end{center}
 
 \\clearpage
-%\\changepage{0in}{-1in}{0.5in}{0.5in}{0in}{0in}{0in}{0in}{0in}
+\\thispagestyle{empty}
+\\begin{center}
+\\includegraphics[width=3.9in]{map-centre.eps}
+\\end{center}
+
+\\clearpage
+\\thispagestyle{empty}
+\\begin{center}
+\\includegraphics[width=3.9in]{map-levant.eps}
+\\end{center}
+
+\\clearpage
+\\thispagestyle{empty}
+\\begin{center}
+\\includegraphics[width=3.9in]{map-abyssales.eps}
+\\end{center}
+
+\\clearpage
+\\changepage{0in}{-1in}{0.5in}{0.5in}{0in}{0in}{0in}{0in}{0in}
 "
 
-let head_final = "\\documentclass[10pt,openleft,twoside]{book}
+let head_final = "\\documentclass[11pt,openleft,twoside]{book}
 
 \\usepackage[papersize={5in,8in},margin={0.6in,0.75in}]{geometry}
 
@@ -97,13 +118,13 @@ let head_final = "\\documentclass[10pt,openleft,twoside]{book}
 \\author{Victor Nicollet}
 
 \\usepackage{setspace}
-\\onehalfspace
+\\singlespace
 
 \\usepackage{graphicx}
 \\usepackage{changepage}
 
 \\setlength{\\parindent}{0in}
-\\setlength{\\parskip}{0.4cm}
+\\setlength{\\parskip}{0.2cm}
 
 \\begin{document}
 
@@ -126,7 +147,7 @@ let head_final = "\\documentclass[10pt,openleft,twoside]{book}
   \\verb+ +
 
   \\vfill
-  \\huge{Le Culte de l'Archange}\\\\
+  \\huge{Les enfants de la Brume}\\\\
   \\large{Victor Nicollet}
 
   \\vfill
@@ -142,7 +163,7 @@ let head_final = "\\documentclass[10pt,openleft,twoside]{book}
 \\thispagestyle{empty}
 
 \\begin{center}
-\\includegraphics[width=3.9in]{map-left.eps}
+\\includegraphics[width=3.9in]{map-ponant.eps}
 \\end{center}
 
 \\clearpage
@@ -150,7 +171,23 @@ let head_final = "\\documentclass[10pt,openleft,twoside]{book}
 \\thispagestyle{empty}
 
 \\begin{center}
-\\includegraphics[width=3.9in]{map-right.eps}
+\\includegraphics[width=3.9in]{map-centre.eps}
+\\end{center}
+
+\\clearpage
+
+\\thispagestyle{empty}
+
+\\begin{center}
+\\includegraphics[width=3.9in]{map-levant.eps}
+\\end{center}
+
+\\clearpage
+
+\\thispagestyle{empty}
+
+\\begin{center}
+\\includegraphics[width=3.9in]{map-abyssales.eps}
 \\end{center}
 "
 
@@ -199,6 +236,13 @@ class toLatex what = object
     Buffer.add_string buffer (if final then "\\chapter{" else "\\section{") ;
     Buffer.add_string buffer (Str.global_replace nbsp "~" title);
     Buffer.add_string buffer "}\\thispagestyle{empty} %%%%%%%%%%%%%%%%%%%%\n\n"
+
+  method start_lexicon =
+    let title = "Glossaire" in
+    let nbsp = Str.regexp (Str.quote "&#160;") in
+    Buffer.add_string buffer (if final then "\\chapter*{" else "\\section*{") ;
+    Buffer.add_string buffer (Str.global_replace nbsp "~" title);
+    Buffer.add_string buffer "}\\pagestyle{empty} %%%%%%%%%%%%%%%%%%%%\n\n"
 
   method start_emphasis =
     Buffer.add_string buffer "\\textit{"
